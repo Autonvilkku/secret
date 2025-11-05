@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Morse Audio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f7f7f8;
+    }
+    .box {
+      text-align: center;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      background: linear-gradient(180deg,#ffffff,#fafafa);
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Play the Morse audio</h1>
+    <audio controls>
+      <source src="audio.wav" type="audio/wav">
+      Your browser doesn’t support the audio element. <a href="audio.wav">Download audio</a>
+    </audio>
+  </div>
+</body>
+  </html>
